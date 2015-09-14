@@ -146,7 +146,7 @@ if __name__ == '__main__':
         print("Program konwertuje plik tess z programu NEPER")
         print("na komendy wejściowe pakietu ANSYS. Użycie: ")
         print("sciezka_do_programu plik_wejsciowy.tess plik_wynikowy")
-
+        exit()
     knw = Konwerter()
     try:
         knw.konwertuj_komendy(sys.argv[1], sys.argv[2])
