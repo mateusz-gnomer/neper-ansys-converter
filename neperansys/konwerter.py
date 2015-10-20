@@ -142,7 +142,7 @@ class Konwerter:
 
 if __name__ == '__main__':
     import sys
-    if len(sys.argv[0]) != 3:
+    if len(sys.argv) != 3:
         print("Program konwertuje plik tess z programu NEPER")
         print("na komendy wejściowe pakietu ANSYS. Użycie: ")
         print("sciezka_do_programu plik_wejsciowy.tess plik_wynikowy")
